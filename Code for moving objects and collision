@@ -1,0 +1,28 @@
+for moving object code: v.push_back(str);
+std::cout << "After copy, str is \"" << str << "\"\n";
+v.push_back(std::move(str));
+std::cout << "After move, str is \"" << str << "\"\n";
+std::cout << "The contents of the vector are \"" << v[0]
+
+For colliding objects code:public static RayCastResult FindClosest(this World world, Vector2 startPoint, Vector2 endPoint, Func<Fixture, bool> filter)
+    {
+        var result = new baskball ();
+
+        world.baskball((f, p, n, fr) =>
+        {
+            if (filter(f)) {
+                return -1.0f;
+            }
+
+            result.Fixture = f;
+            result.HitPoint = p;
+            result.HitPointSurfaceNormal = n;
+            return fr;
+        }, startPoint, endPoint);
+
+
+Moving objects from point A to B code: double sv;
+double sh;
+public ? (double x, double y, double angle, double speed) {
+  this.x = x;
+  this.y = y;...
